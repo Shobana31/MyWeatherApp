@@ -1,0 +1,84 @@
+#city{
+
+    width: 70%;
+    margin-left: 0;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container{
+    background-color: white;
+    box-shadow: 0 0  20px rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+    max-width: 350px;
+    max-height: 800px;
+    
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"]{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 60%;
+}
+form input[type="submit"]:hover{
+    /* background-color: aliceblue; */
+}
+
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.temperature{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.description{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details > div{
+    padding: 20px;
+    background-color: #f7f7f7;
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 45px;
+    
+}
+
+.max-temp, .min-temp, .win-speed {
+    font-weight: bold;
+    font-size: 18px;
+}
